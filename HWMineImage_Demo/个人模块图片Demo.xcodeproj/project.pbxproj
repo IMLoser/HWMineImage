@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9726F9691DF93A56005B9267 /* HWMeImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9726F9681DF93A56005B9267 /* HWMeImage.gif */; };
 		972DAED11DF854C0003A8652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 972DAED01DF854C0003A8652 /* main.m */; };
 		972DAED41DF854C0003A8652 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 972DAED31DF854C0003A8652 /* AppDelegate.m */; };
 		972DAEDC1DF854C0003A8652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972DAEDB1DF854C0003A8652 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9726F9681DF93A56005B9267 /* HWMeImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HWMeImage.gif; sourceTree = "<group>"; };
 		972DAECC1DF854C0003A8652 /* 个人模块图片Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "个人模块图片Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		972DAED01DF854C0003A8652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		972DAED21DF854C0003A8652 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +39,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9726F9671DF93A56005B9267 /* ReadImage */ = {
+			isa = PBXGroup;
+			children = (
+				9726F9681DF93A56005B9267 /* HWMeImage.gif */,
+			);
+			path = ReadImage;
+			sourceTree = "<group>";
+		};
 		972DAEC31DF854C0003A8652 = {
 			isa = PBXGroup;
 			children = (
+				9726F9671DF93A56005B9267 /* ReadImage */,
 				972DAEE61DF85552003A8652 /* Me */,
 				972DAECE1DF854C0003A8652 /* 个人模块图片Demo */,
 				972DAECD1DF854C0003A8652 /* Products */,
@@ -169,6 +180,7 @@
 			files = (
 				972DAEDF1DF854C0003A8652 /* LaunchScreen.storyboard in Resources */,
 				972DAEDC1DF854C0003A8652 /* Assets.xcassets in Resources */,
+				9726F9691DF93A56005B9267 /* HWMeImage.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +342,7 @@
 				972DAEE51DF854C0003A8652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
